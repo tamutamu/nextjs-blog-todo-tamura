@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "AllAutocomplete.showCurrentDocument": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
+}
