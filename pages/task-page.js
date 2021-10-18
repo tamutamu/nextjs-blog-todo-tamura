@@ -17,9 +17,9 @@ export default function TaskPage({ staticfilterdTasks }) {
     const filteredTasks = tasks?.sort(
         (a, b) => new Date(b.created_at) - new Date(a.created_at)
     );
-    useEffect(() => {
-        mutate();
-    }, []);
+    // useEffect(() => {
+    //     mutate();
+    // }, []);
     return (
         <StateContextProvider>
             <Layout title="Task page">
