@@ -114,7 +114,7 @@ export default function Auth() {
                             onClick={() => setIsLogin(!isLogin)}
                             className="cursor-pointer font-medium text-white hover:text-indigo-500"
                         >
-                            change mode ?
+                            {isLogin ? "サインアップへ" : "ログインへ"}
                         </span>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default function Auth() {
                                 />
                             </svg>
                         </span>
-                        {isLogin ? "Login with JWT" : "Create new user"}
+                        {isLogin ? "ログイン" : "ユーザ登録"}
                     </button>
                 </div>
             </form>
